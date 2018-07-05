@@ -22,4 +22,9 @@
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/thonatos/maidops/issues).
+Please open an issue [here](https://github.com/thonatos/awesome-eggjs/issues).
+
+## Reference
+
+- [easywebpack](https://github.com/hubcarl/easywebpack)
+- [egg-react-typescript-boilerplate](https://github.com/hubcarl/egg-react-typescript-boilerplate)
