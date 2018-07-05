@@ -8,6 +8,7 @@ export default (appInfo: EggAppConfig) => {
 
   config.static = {
     prefix: '/public/',
+    dir: path.join(appInfo.baseDir, '/public'),
   };
 
   config.siteFile = {
@@ -17,9 +18,7 @@ export default (appInfo: EggAppConfig) => {
     ),
   };
 
-  config.middleware = [
-    // 'access'
-  ];
+  config.middleware = [];
 
   return config;
 };
