@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "USE_GITIGNORE": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    }
+  },
+  "path-intellisense.mappings": {    
+    "~": "${workspaceRoot}/app/web",    
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

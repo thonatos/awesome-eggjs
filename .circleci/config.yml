@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  build:
+    machine: true    
+    steps:
+      - checkout
+      - run: 
+          name: build docker image
+          command: docker build --rm=false -t thonatos/awesome-eggjs:$CIRCLE_SHA1 .
+      - run: 
+          name: login to hub.docker.com
+          command: docker login -u $DOCKER_USER -p $DOCKER_PASS
+      - run:
+          name: push to hub.docker.com
+          command: docker push thonatos/awesome-eggjs:$CIRCLE_SHA1

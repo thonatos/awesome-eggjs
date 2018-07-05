@@ -1,0 +1,12 @@
+.header {
+  background: #fff;
+}
+
+.header-logo {
+  float: left;
+  padding-right: 2em;
+}
+
+.header-nav{
+  line-height: 64px;
+}

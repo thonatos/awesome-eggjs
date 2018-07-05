@@ -1,0 +1,47 @@
+{
+  "home/index.css": "/public/css/home/index.css",
+  "home/index.js": "/public/js/home/index.js",
+  "home/index.css.map": "/public/css/home/index.css.map",
+  "home/index.js.map": "/public/js/home/index.js.map",
+  "layout.js": "/public/js/layout.js",
+  "layout.js.map": "/public/js/layout.js.map",
+  "plugins/index.css": "/public/css/plugins/index.css",
+  "plugins/index.js": "/public/js/plugins/index.js",
+  "plugins/index.css.map": "/public/css/plugins/index.css.map",
+  "plugins/index.js.map": "/public/js/plugins/index.js.map",
+  "js/vendor.js": "/public/js/vendor.js",
+  "img/logo.svg": "/public/img/logo.svg",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "home/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/home/index.js"
+      ],
+      "css": [
+        "/public/css/home/index.css"
+      ]
+    },
+    "plugins/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/plugins/index.js"
+      ],
+      "css": [
+        "/public/css/plugins/index.css"
+      ]
+    },
+    "layout.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/layout.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}

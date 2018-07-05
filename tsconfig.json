@@ -1,0 +1,14 @@
+{
+  "extends": "./config/tsconfig.json",
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs"
+  },
+  "exclude": [
+    "app/public",
+    "app/view",
+    "app/web",    
+    "app/web/**/*.ts"
+  ]
+}
