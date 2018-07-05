@@ -84,6 +84,7 @@ typings/
 run
 public
 app/view/
+config/manifest.json
 
 # End of https://www.gitignore.io/api/git,node
 
