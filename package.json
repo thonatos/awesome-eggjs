@@ -26,7 +26,9 @@
   },
   "dependencies": {
     "@octokit/rest": "^15.9.4",
+    "egg": "^2.9.1",
     "egg-scripts": "^2.6.0",
+    "egg-ts-helper": "^1.9.0",
     "egg-view-react-ssr": "^2.2.7",
     "react": "16.4.1",
     "react-dom": "16.4.1",
