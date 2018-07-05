@@ -18,6 +18,8 @@ RUN npm i
 
 COPY . /usr/src/app
 
+RUN npm run build 
+
 EXPOSE 7001
 
 CMD npm run start
