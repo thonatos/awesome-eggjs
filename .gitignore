@@ -82,6 +82,8 @@ typings/
 
 # Egg.js build output
 run
+public
+app/view/
 
 # End of https://www.gitignore.io/api/git,node
 
